@@ -1,0 +1,17 @@
+[user]
+	name = "MBR#0001"
+	email = mbr@mbr.pw
+	signingkey = A938970B8DD3F170
+[credential]
+	helper = store
+[color]
+	ui = auto
+[core]
+	excludesFile = /home/mbr/.globalgitignore
+	autocrlf = input
+[commit]
+	gpgsign = true
+[pull]
+	rebase = false
+[advice]
+	addIgnoredFile = false
