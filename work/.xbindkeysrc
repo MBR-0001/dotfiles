@@ -1,0 +1,9 @@
+"xdotool key XF86AudioMute"
+    b:8
+
+"xdotool key XF86AudioPlay"
+    b:9
+
+"xdotool key Ctrl+KP_Divide"
+    m:0x0 + c:164
+    XF86Favorites
