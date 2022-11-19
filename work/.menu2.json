@@ -70,13 +70,6 @@
       "icon": "preferences-desktop-default-applications"
     },
     {
-      "x": 2,
-      "y": 1,
-      "w": 2,
-      "h": 2,
-      "url": "com.jetbrains.IntelliJ-IDEA-Ultimate.desktop"
-    },
-    {
       "x": 4,
       "y": 3,
       "w": 2,
@@ -103,6 +96,15 @@
       "w": 2,
       "h": 2,
       "url": "chat.rocket.RocketChat.desktop"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "w": 2,
+      "h": 2,
+      "url": "jetbrains-idea.desktop",
+      "showLabel": true,
+      "label": "Intellij IDEA"
     }
   ],
   "tileScaleDefault": 0.8,
