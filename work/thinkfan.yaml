@@ -1,0 +1,35 @@
+sensors:
+  - hwmon: /sys/class/hwmon
+    name: acpitz
+    indices: [1]
+    correction: [0]
+
+  - hwmon: /sys/devices/platform/coretemp.0/hwmon
+    name: coretemp
+    indices: [1, 2, 3, 4, 5]
+    correction: [0, 0, 0, 0, 0]
+
+  - hwmon: /sys/devices/platform/thinkpad_hwmon/hwmon
+    name: thinkpad
+    indices: [1, 2, 3, 4, 5, 6]
+    correction: [0, 0, 0, 0, 0, 0]
+
+  - hwmon: /sys/devices/platform/thinkpad_hwmon/hwmon
+    name: thinkpad
+    indices: [7]
+    correction: [0]
+
+  - hwmon: /sys/devices/platform/thinkpad_hwmon/hwmon
+    name: thinkpad
+    optional: true
+    indices: [8]
+    correction: [0]
+
+fans:
+  - tpacpi: /proc/acpi/ibm/fan
+
+levels:
+  - [0, 0, 50]
+  - [2, 50, 65]
+  - [4, 65, 75]
+  - [7, 75, 255]
