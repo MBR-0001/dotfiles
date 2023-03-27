@@ -7,7 +7,7 @@
 [color]
 	ui = auto
 [core]
-	excludesFile = /home/mbr/.globalgitignore
+	excludesFile = /home/user/.globalgitignore
 	autocrlf = input
 [commit]
 	gpgsign = true
